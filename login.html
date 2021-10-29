@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <style>#main {text-align: center};</style>
+    <style>
+        body {background-color: rgba(red, green, blue, 80%);}
+        #main {text-align: center;border-radius: 15px};
+        .inside {font-size: large};
+    </style>
 </head>
 <body>
     <div id="main">
-        <div id="title">TOKEN</div>
-        <div id="token"><input type="text"></div>
-        <div id="login"><button>Login</button></div>
+        <div class="inside" id="title">TOKEN</div>
+        <div class="inside" id="token"><input type="text"></div>
+        <div class="inside" id="login"><button>Login</button></div>
     </div>
 </body>
 </html>
